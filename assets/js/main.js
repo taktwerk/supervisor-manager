@@ -79,7 +79,7 @@ function SupervisorManager()
      */
     this.groupControl = function(event)
     {
-        var actionUrl = supervisorManager.urls.supervisorControl;
+        var actionUrl = supervisorManager.urls.groupControl;
 
         if ($(event.currentTarget).hasClass('processConfigControl')) {
             actionUrl = supervisorManager.urls.processConfigControl;
