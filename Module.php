@@ -5,7 +5,7 @@ namespace supervisormanager;
 use supervisormanager\components\supervisor\ConnectionInterface;
 use supervisormanager\components\supervisor\Supervisor;
 use yii\base\Event;
-use Zend\XmlRpc\Client;
+use Laminas\XmlRpc\Client;
 
 /**
  * @property array supervisorConnection

@@ -4,7 +4,7 @@ namespace supervisormanager\components\supervisor\control;
 
 use supervisormanager\components\supervisor\ConnectionInterface;
 use supervisormanager\components\supervisor\Supervisor;
-use Zend\XmlRpc\Client;
+use Laminas\XmlRpc\Client;
 
 /**
  * Class Group

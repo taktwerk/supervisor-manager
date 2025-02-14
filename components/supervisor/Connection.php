@@ -6,10 +6,10 @@ use supervisormanager\components\supervisor\exceptions\AuthenticationException;
 use supervisormanager\components\supervisor\exceptions\ConnectionException;
 use supervisormanager\components\supervisor\exceptions\SupervisorException;
 use yii\base\Component;
-use Zend\XmlRpc\Client as XmlRpcClient;
-use Zend\XmlRpc\Client\Exception\HttpException;
-use Zend\XmlRpc\Client\Exception\FaultException;
-use Zend\Http\Client\Adapter\Exception\RuntimeException;
+use Laminas\XmlRpc\Client as XmlRpcClient;
+use Laminas\XmlRpc\Client\Exception\HttpException;
+use Laminas\XmlRpc\Client\Exception\FaultException;
+use Laminas\Http\Client\Adapter\Exception\RuntimeException;
 
 /**
  * Class Connection
